@@ -1,0 +1,45 @@
+body {
+	font-size: 16px;
+	font-family: 'Karla', sans-serif;
+	background-color: hsl(204, 43%, 93%);
+}
+
+h1 {
+	color: hsl(179, 62%, 43%);
+}
+
+h1,
+h2 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+span {
+	font-weight: bold;
+}
+
+#intro {
+	background-color: white;
+	color: hsl(218, 22%, 67%);
+}
+
+#deal {
+	color: hsl(71, 73%, 54%);
+	font-weight: bold;
+}
+
+#subscribe {
+	background-color: hsl(179, 62%, 43%);
+	color: hsl(204, 43%, 93%);
+}
+
+#aboutUs {
+	background-color: hsl(179, 47%, 52%);
+	color: hsl(204, 43%, 93%);
+}
+
+input[type="button"] {
+	background-color: hsl(71, 73%, 54%);
+	color: hsl(204, 43%, 93%);
+	font-weight: bold;
+}
