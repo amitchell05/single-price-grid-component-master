@@ -93,3 +93,22 @@ p:last-child {
 	padding: 1rem 2rem;
 	/* box-shadow: 0 0 20px hsl(214, 13%, 56%); */
 }
+
+@media (min-width: 576px) {
+	.container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		max-width: 650px;
+		margin: 0.75rem;
+	}
+	.intro {
+		grid-column-start: 1;
+		grid-column-end: -1;
+	}
+	.subscription {
+		border-radius: 0 0 0 10px;
+	}
+	.about-us {
+		border-radius: 0 0 10px 0;
+	}
+}
