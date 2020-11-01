@@ -99,7 +99,7 @@ p:last-child {
 	.container {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		max-width: 650px;
+		max-width: 600px;
 		margin: 0.75rem;
 	}
 	.box {
