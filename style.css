@@ -33,10 +33,11 @@ p:last-child {
 .container {
 	max-width: 400px;
 	margin: 0.75rem;
+	box-shadow: 0 5px 15px #b9c6ce;
+	border-radius: 10px;
 }
 
 .box {
-	color: #fff;
 	padding: 1.5rem;
 }
 
@@ -91,7 +92,7 @@ p:last-child {
 	text-decoration: none;
 	text-align: center;
 	padding: 1rem 2rem;
-	/* box-shadow: 0 0 20px hsl(214, 13%, 56%); */
+	box-shadow: 0 5px 10px #158381;
 }
 
 @media (min-width: 576px) {
@@ -100,6 +101,9 @@ p:last-child {
 		grid-template-columns: repeat(2, 1fr);
 		max-width: 650px;
 		margin: 0.75rem;
+	}
+	.box {
+		padding: 2rem;
 	}
 	.intro {
 		grid-column-start: 1;
