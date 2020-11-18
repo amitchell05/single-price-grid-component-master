@@ -95,6 +95,16 @@ p:last-child {
 	box-shadow: 0 5px 10px #158381;
 }
 
+.btn:hover,
+.btn:active {
+	background-color: hsl(74, 71%, 45%);
+}
+
+.btn:focus {
+	outline: none;
+	box-shadow: 0 0 0 2px hsl(187, 69%, 33%), 0 0 0 .6rem hsl(179, 56%, 52%, 0.75);
+}
+
 @media (min-width: 576px) {
 	.container {
 		display: grid;
